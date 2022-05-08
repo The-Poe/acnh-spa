@@ -40,7 +40,7 @@
   <ul>
     <li>A4 錯誤 url 導向 404 page，並在 10 秒後導向 home page
       <ul>
-         <li>還需要一點時間，禮拜天可以再加上去。
+         <li>可以用router將未知url導至Page not found, 但是使用useHistory時雖然改變了url, 畫面卻沒有render，猜測可能和link相似也是版本相依問題，還要花時間研究。也因此就沒有做十秒倒數功能。<br>但可以參考我在codepen寫過的倒數功能: https://codepen.io/qjqtzrlf-the-sasster/pen/zYpQayR
          </li>
       </ul>
     </li>
